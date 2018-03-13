@@ -152,7 +152,7 @@ In the example above, if you move the Slider widget to 60%, move the Switch to O
 The Item name is used to uniquely identify an Item.
 The name must be unique across all `.items` files in your openHAB configuration.
 The only characters permitted in an Item name are letters, numbers and the underscore character.
-Spaces and special characters are not permitted.
+Spaces and special characters are not permitted. The item name must not start with a number. In some cases auto-generated names by the paperUI start with a number, these will have to be changed manually.
 
 A good Item name is self-explanatory and hints at its Item type and interaction options.
 A good hierarchical arrangement allows you to create common-sense groupings of Items.
