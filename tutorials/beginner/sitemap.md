@@ -56,7 +56,7 @@ You can find a detailled overview of the different item types [here]({{base}}/co
 
 In this example we use "Switch" as the item's type. This results in a slider which is either turned on or turned off.
 
-**Important: the item's name has to be unique!**
+**IMPORTANT: the item's name has to be UNIQUE and MUST NOT start with a number!**
 
 Feel free to choose an appropriate description for your item.
 
